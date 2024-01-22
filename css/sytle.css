@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+    background-color: black !important;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p {
+    color: white !important;
+    margin: 0;
+}
+
+/* Top Section */
+.top {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.705) ,rgba(0, 0, 0, 0.212)),url('../images/background2.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 709px;
+    position: relative !important;
+}
+
+/* Line Separator */
+.line {
+    color: rgba(128, 128, 128, 0.116);
+    border: 5px solid;
+    margin: 0;
+    background-color: rgba(128, 128, 128, 0.116);
+}
+
+/* Buttons */
+.btn-outline-secondary, .btn-outline-secondary:active, .btn-outline-secondary:visited {
+    color: white !important;
+    background-color: black !important;
+    border-color: blanchedalmond !important;
+    box-shadow: black !important;
+}
+
+.btn {
+    border-radius: 3px !important;
+}
+
+/* Headings and Labels */
+.Firstheading {
+    color: white;
+    max-width: 640px !important;
+    font-size: 3.125rem;
+    text-align: center;
+    line-height: 1.1;
+    font-weight: bold;
+    margin-top: 11rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Secondheading, .Formlabel {
+    color: white;
+    max-width: 640px !important;
+    font-size: 1.625rem;
+    text-align: center;
+    line-height: 1.1;
+    font-weight: 400;
+    margin: 0.8rem auto;
+}
+
+/* Container for the content */
+.heading {
+    width: fit-content !important;
+    max-width: 950px !important;
+    margin: 0 auto;
+}
+
+/* Email Form */
+.emailform {
+    margin-inline-start: auto;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+/* Navigation and Logo */
+.navbar {
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .Firstheading {
+        font-size: 2.5rem;
+        margin-top: 8rem;
+    }
+
+    .Secondheading {
+        font-size: 1.25rem;
+    }
+
+    .Formlabel {
+        font-size: 1rem;
+    }
+    .form-control{
+
+        width: 70%;
+        margin-left: -1rem;
+    }
+    .btn-danger{
+        width: 70%;
+        margin-left:6.2rem;
+    }
+    .top{
+        margin-bottom: 100px;
+    }
+    body{
+        max-width: 87%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Styles for Medium Devices (tablets) */
+    .Firstheading {
+        font-size: 2.75rem;
+    }
+
+    .Secondheading {
+        font-size: 1.375rem;
+    }
+
+    .Formlabel {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Styles for Large Devices (desktops) */
+    .Firstheading {
+        font-size: 3.125rem;
+        width: 100%;
+    }
+
+    .Secondheading {
+        font-size: 1.625rem;
+    }
+
+    .Formlabel {
+        font-size: 1.2rem;
+    }
+}
